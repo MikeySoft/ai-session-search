@@ -98,6 +98,10 @@ Files read, all under your home directory:
 
 A missing or unreadable store prints one line on stderr, such as `opencode: session store not found` or `opencode: database is locked`, and the other tools still appear. If all three stores fail, the command exits 1.
 
+## Docs
+
+The design is in [docs/superpowers/specs/2026-11-19-sessions-design.md](docs/superpowers/specs/2026-11-19-sessions-design.md). The original build plan sits next to it. [AGENTS.md](AGENTS.md) is the guide for coding agents. [CLAUDE.md](CLAUDE.md) imports that file so Claude Code loads the same instructions.
+
 ## Tests
 
 ```bash
