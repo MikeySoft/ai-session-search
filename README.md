@@ -104,3 +104,7 @@ A missing or unreadable store prints one line on stderr, such as `opencode: sess
 .venv/bin/pip install -e '.[dev]'
 .venv/bin/pytest
 ```
+
+## License
+
+MIT. See [LICENSE](LICENSE).
